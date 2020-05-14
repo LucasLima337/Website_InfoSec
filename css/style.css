@@ -1,0 +1,108 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13pt;
+    margin: 5px 0 0;
+}
+#content {
+    background-color: white;
+    width: 1400px;
+    margin: auto;
+}
+#header1 {
+    margin: auto;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+#header1 img {
+    border-top:solid rgb(53, 112, 122);
+}
+#ul1 {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+#ul1 a {
+    background-color: rgb(68, 189, 211);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 20px;
+}
+#ul1 a:hover {
+    background-color: rgb(53, 112, 122);
+    transition: 400ms;
+}
+#ul1 #home {
+    font-weight: bold;
+    background-color: rgb(53, 112, 122);
+    color: white;
+}
+#ul1 #home:hover {
+    background-color: rgb(68, 189, 211);
+}
+#banner {
+    background-color: rgb(53, 112, 122);
+}
+#banner img {
+    width: 1400px;
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+#section1 {
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+}
+#section1 #part1 {
+    width: 900px;
+}
+#section1 #part1 h1 {
+    font-size: 35pt;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#section1 #part2 {
+    background-color: rgb(53, 112, 122);
+    color: white;
+    margin-left: auto;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+#section1 #part2 h2 {
+    margin-top: 10px;
+    font-weight: 200;
+}
+footer {
+    background-color: rgb(68, 189, 211);
+}
+#footer {
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    width: 1400px;
+    justify-content: space-between;
+}
+#footer li {
+    list-style: none;
+}
+#list1 li, #list1 p {
+    margin-left: -42px;
+}
+#list1 p {
+    margin-top: 70px;
+    font-size: 10pt;
+}
+#list1 #cont {
+    margin-bottom: 7px;
+}
+#list2 {
+    text-align: right;
+}
+#list2 li:nth-child(1), #list2 li:nth-child(2) {
+    margin-bottom: 7px;
+}
