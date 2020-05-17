@@ -16,6 +16,7 @@ body {
 }
 #header1 img {
     border-top:solid rgb(53, 112, 122);
+    outline: none;
 }
 #ul1 {
     list-style: none;
