@@ -99,6 +99,14 @@ footer {
     margin-top: 70px;
     font-size: 10pt;
 }
+.list1 p a {
+    font-weight: bold;
+    text-decoration: none;
+    color: purple;
+}
+.list1 p a:hover {
+    text-decoration: underline;
+}
 .list1 .cont {
     margin-bottom: 7px;
 }
