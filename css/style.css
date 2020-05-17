@@ -102,6 +102,7 @@ footer {
 .list1 p a {
     font-weight: bold;
     text-decoration: none;
+    outline: none;
     color: purple;
 }
 .list1 p a:hover {
