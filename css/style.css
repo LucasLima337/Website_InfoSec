@@ -3,7 +3,7 @@ body {
     font-size: 13pt;
     margin: 5px 0 0;
 }
-#content {
+.content {
     background-color: white;
     width: 1400px;
     margin: auto;
@@ -44,10 +44,10 @@ body {
 .ul1 .home:hover {
     background-color: rgb(68, 189, 211);
 }
-#banner {
+.banner {
     background-color: rgb(53, 112, 122);
 }
-#banner img {
+.banner img {
     width: 1400px;
     height: 350px;
     display: block;
@@ -111,3 +111,40 @@ footer {
 
 
 /* Company Page */
+.ul1 #company {
+    background-color: rgb(53, 112, 122);
+}
+.ul1 #company:hover {
+    background-color: rgb(68, 189, 211);
+}
+#compsec1 {
+    display:flex;
+    margin-top: 30px;
+    gap: 80px;
+}
+#compsec1 main {
+    width: 860px;
+}
+#compsec1 main h1 {
+    margin-top: 20px;
+    font-size: 30pt;
+    font-weight: 100;
+}
+#compsec1 main h2 {
+    margin-top: 50px;
+    font-size: 25pt;
+    font-weight: 500;
+}
+#compsec1 main div ul {
+    margin-left: -24px;
+}
+#foto img {
+    margin-top: 280px;
+    width: 500px;
+}
+#foto p {
+    margin-top: -5px;
+    background-color: #F2A900;
+    text-align: center;
+    font-style: italic;
+}
