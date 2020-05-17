@@ -8,22 +8,23 @@ body {
     width: 1400px;
     margin: auto;
 }
-#header1 {
+.header1 {
     margin: auto;
     width: 1400px;
     display: flex;
     justify-content: space-between;
 }
-#header1 img {
+.header1 img {
     border-top:solid rgb(53, 112, 122);
     outline: none;
 }
-#ul1 {
+.ul1 {
+    margin-top: 30px;
     list-style: none;
     display: flex;
     gap: 50px;
 }
-#ul1 a {
+.ul1 a {
     background-color: rgb(68, 189, 211);
     text-decoration: none;
     color: white;
@@ -31,16 +32,16 @@ body {
     padding: 12px;
     border-radius: 20px;
 }
-#ul1 a:hover {
+.ul1 a:hover {
     background-color: rgb(53, 112, 122);
     transition: 400ms;
 }
-#ul1 #home {
+.ul1 .home {
     font-weight: bold;
     background-color: rgb(53, 112, 122);
     color: white;
 }
-#ul1 #home:hover {
+.ul1 .home:hover {
     background-color: rgb(68, 189, 211);
 }
 #banner {
@@ -81,29 +82,32 @@ body {
 footer {
     background-color: rgb(68, 189, 211);
 }
-#footer {
+.footer {
     display: flex;
     margin: auto;
     margin-top: 80px;
     width: 1400px;
     justify-content: space-between;
 }
-#footer li {
+.footer li {
     list-style: none;
 }
-#list1 li, #list1 p {
+.list1 li, .list1 p {
     margin-left: -42px;
 }
-#list1 p {
+.list1 p {
     margin-top: 70px;
     font-size: 10pt;
 }
-#list1 #cont {
+.list1 .cont {
     margin-bottom: 7px;
 }
-#list2 {
+.list2 {
     text-align: right;
 }
-#list2 li:nth-child(1), #list2 li:nth-child(2) {
+.list2 li:nth-child(1), .list2 li:nth-child(2) {
     margin-bottom: 7px;
 }
+
+
+/* Company Page */
