@@ -157,3 +157,69 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+
+/* Services Page */
+.ul1 #services {
+    background-color: rgb(53, 112, 122);
+}
+.ul1 #services:hover {
+    background-color: rgb(68, 189, 211);
+}
+#main {
+    margin-top: 30px;
+    display: flex;
+    gap: 100px;
+}
+#servsec1 {
+    width: 850px;
+}
+#servsec1 h1, h2 {
+    font-weight: normal;
+}
+#servsec1 h1 {
+    font-size: 30pt;
+    margin-top: 20px;
+    font-weight: 100;
+}
+#servsec1 h2 {
+    margin-top: 50px;
+    font-size: 20pt;
+    font-weight: normal;
+}
+#div2 table {
+    width: 700px;
+    border-collapse: collapse;
+}
+#div2 table th, td, tr{
+    border: none;
+    padding: 8px;
+}
+#tabletitle {
+    background-color: rgb(53, 112, 122);
+    color: white;
+}
+.maintable td{
+    border-bottom: 1px solid rgb(53, 112, 122);
+}
+.days {
+    text-align: center;
+}
+.value {
+    text-align: right;
+}
+#servsec2 {
+    width: 500px;
+}
+#servsec2 h2 {
+    font-size: 23pt;
+}
+.fulano {
+    text-align: right;
+}
+.cite {
+    text-align: justify;
+}
+.cite:nth-last-child(1){
+    margin-top: 70px;
+}
