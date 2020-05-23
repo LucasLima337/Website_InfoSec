@@ -274,6 +274,9 @@ h1#contactformula {
 #escolhas {
     margin-top: 5px;
 }
+#comercialtext,#financeirotext, #suportetext {
+    cursor: pointer;
+}
 #escolhas #comercial {
     margin-left: -1px;
 }
