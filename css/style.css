@@ -251,3 +251,9 @@ h1#contactformula {
 #first #nome, #first #empresa {
     width: 400px;
 }
+#second {
+    margin-top: 20px;
+}
+#second #email {
+    width: 845px;
+}
