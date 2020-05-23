@@ -223,3 +223,31 @@ footer {
 .cite:nth-last-child(1){
     margin-top: 70px;
 }
+
+/* Contact Page */
+.ul1 #contact {
+    background-color: rgb(53, 112, 122);
+}
+.ul1 #contact:hover {
+    background-color: rgb(68, 189, 211);
+}
+main#formula {
+    background-color: lightblue;
+    width: 890px;
+    padding: 20px;
+}
+h1#contactformula {
+    font-size: 40pt;
+    font-weight: 100;
+}
+#headerform h3 {
+    font-size: 15pt;
+    font-weight: 100;
+}
+#first {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#first #nome, #first #empresa {
+    width: 400px;
+}
