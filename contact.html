@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <title>CONTACT - Company Website</title>
+    </head>
+    <body>
+        <header class='header1'>
+            <a href="index.html"><img src="images/mainlogo.jpeg" alt="logo da empresa" id="logo"></a>
+            <ul class='ul1'>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="company.html">Company</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a id='contact' href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+        <div class="banner">
+            <img src="images/banner.jpg" alt="banner da empresa">
+        </div>
+        <div class="content">
+            <h1 id='contactformula'>Contact</h1>
+            <main id='formula'>
+                <header id='headerform'>
+                    <h3>Entre em contato conosco preenchendo o formulário abaixo:</h3>
+                </header>
+                <form action="#">
+                    <section id='first'>
+                        <div id='cabeça'>
+                            <label id='labelnome' for="nome">Nome *</label><br>
+                            <input type="text" name="nameform" id="nome">
+                        </div>
+                        <div> 
+                            <label id='labelempresa' for="empresa">Empresa</label><br>
+                            <input type="text" name="companyform" id="empresa">
+                        </div>
+                    </section>
+                    <div id='second'>
+                        <label id='labelemail' for="email">Email *</label><br>
+                        <input type="email" name="emailform" id="email">
+                    </div>
+                    <section id="three">
+                        <div>
+                            <label for="telefone">Telefone *</label>
+                            <label for="#">Departamento</label>
+                        </div>
+                        <div>
+                            <input type="tel" name="telephoneform" id="telefone">
+                            <input type="radio" name="departamento" id="comercial">
+                            <label for="comercial">Comercial</label>
+                            <input type="radio" name="departamento" id="financeiro">
+                            <label for="financeiro">Financeiro</label>
+                            <input type="radio" name="departamento" id="suporte">
+                            <label for="suporte">Suporte</label>
+                        </div>
+                    </section>
+                    <div id="four">
+                        <label for="assunto">Assunto *</label><br>
+                        <select name="assuntoform" id="assunto">
+                            <option value="valor1">Escolha dentre as opções abaixo</option>
+                            <option value="valor2">nsdfjk</option>
+                            <option value="valor3">nsdfjk</option>
+                            <option value="valor4">nsdfjk</option>
+                            <option value="valor5">nsdfjk</option>
+                            <option value="valor6">nsdfjk</option>
+                        </select>
+                    </div>
+                    <div id="five">
+                        <label for="mensagem">Mensagem *</label><br>
+                        <textarea name="men" id="mensagem" cols="30" rows="10"></textarea>
+                    </div>
+                    <div id="six">
+                        <input type="checkbox" name="box" id="check">
+                        <label for="check">Gostaria de receber a NSDFJK da Empresa</label>
+                    </div>
+                    <button>Enviar Mensagem</button>
+                </form>
+            </main>
+        </div>
+        <footer>
+            <section class='footer'>
+                <div class="contact">
+                    <ul class='list1'>
+                        <li class='cont'>contactseginfo@example.com</li>
+                        <li>(42) 4002-8922</li>
+                        <p><a href="https://titanci.com.br" target="_blank">&copy; TITAN Company</a></p>
+                    </ul>
+                </div>
+                <div class="adress">
+                    <ul class='list2'>
+                        <li>Rua Prof. Aristídes Novis, 2 - Federação</li>
+                        <li>CEP 40210-630</li>
+                        <li>Salvador - BA</li>
+                    </ul>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
