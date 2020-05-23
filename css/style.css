@@ -232,7 +232,11 @@ footer {
     background-color: rgb(68, 189, 211);
 }
 main#formula {
-    background-color: lightblue;
+    background-color: rgb(53, 112, 122);
+    color: white;
+    border: solid 5px;
+    border-radius: 20px;
+    border-color: black;
     width: 890px;
     padding: 20px;
 }
@@ -250,10 +254,67 @@ h1#contactformula {
 }
 #first #nome, #first #empresa {
     width: 400px;
+    font-size: 15pt;
 }
 #second {
     margin-top: 20px;
 }
 #second #email {
     width: 845px;
+    font-size: 15pt;
+}
+#three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+#three #telefone {
+    font-size: 15pt;
+}
+#escolhas {
+    margin-top: 5px;
+}
+#escolhas #comercial {
+    margin-left: -1px;
+}
+#escolhas #financeiro {
+    margin-left: 15px;
+}
+#escolhas #suporte {
+    margin-left: 15px;
+}
+#four {
+    margin-top: 20px;
+}
+#four #assunto {
+    width: 865px;
+    font-size: 14pt;
+}
+#five {
+    margin-top: 20px;
+}
+#five #mensagem {
+    font-size: 15pt;
+}
+#six {
+    margin-top: 20px;
+}
+#butsend {
+    text-align: right;
+}
+button#send {
+    background-color: rgb(68, 189, 211);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 13pt;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    padding: 15px;
+}
+button#send:hover {
+    background-color: #424242;
+    transition: 400ms;
 }
