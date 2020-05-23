@@ -43,17 +43,19 @@
                     </div>
                     <section id="three">
                         <div>
-                            <label for="telefone">Telefone *</label>
-                            <label for="#">Departamento</label>
+                            <label for="telefone">Telefone *</label><br>
+                            <input type="tel" name="telephoneform" id="telefone">
                         </div>
                         <div>
-                            <input type="tel" name="telephoneform" id="telefone">
-                            <input type="radio" name="departamento" id="comercial">
-                            <label for="comercial">Comercial</label>
-                            <input type="radio" name="departamento" id="financeiro">
-                            <label for="financeiro">Financeiro</label>
-                            <input type="radio" name="departamento" id="suporte">
-                            <label for="suporte">Suporte</label>
+                            <label for="#">Departamento</label>
+                            <div id="escolhas">
+                                <input type="radio" name="departamento" id="comercial">
+                                <label for="comercial">Comercial</label>
+                                <input type="radio" name="departamento" id="financeiro">
+                                <label for="financeiro">Financeiro</label>
+                                <input type="radio" name="departamento" id="suporte">
+                                <label for="suporte">Suporte</label>
+                            </div>
                         </div>
                     </section>
                     <div id="four">
@@ -69,13 +71,15 @@
                     </div>
                     <div id="five">
                         <label for="mensagem">Mensagem *</label><br>
-                        <textarea name="men" id="mensagem" cols="30" rows="10"></textarea>
+                        <textarea name="men" id="mensagem" cols="70" rows="10"></textarea>
                     </div>
                     <div id="six">
                         <input type="checkbox" name="box" id="check">
                         <label for="check">Gostaria de receber a NSDFJK da Empresa</label>
                     </div>
-                    <button>Enviar Mensagem</button>
+                    <div id="butsend">
+                        <button id='send'>Enviar Mensagem</button>
+                    </div>
                 </form>
             </main>
         </div>
